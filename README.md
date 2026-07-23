@@ -1,5 +1,5 @@
 Sơ đồ kiến trúc
-
+```text
 ┌─────────────────────────────────────────────────────────┐
 │                    API Gateway                          │
 │              (Routes & Global Logging)                  │
@@ -22,7 +22,7 @@ Sơ đồ kiến trúc
 Communication Methods:
 • Sync: OpenFeign
 • Async: Kafka
-
+```
 ### 1. Service Discovery Mechanism
 The Gateway uses Eureka to discover services dynamically rather than hardcoding IP/Port:
 - Services register themselves with Eureka
